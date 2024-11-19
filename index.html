@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Memory Match</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="falling-leaves"></div>
+    
+    <div class="game-container">
+        <header>
+            <h1>Nature Memory Match</h1>
+            <div class="stats">
+                <span class="moves">Moves: <span id="moves-count">0</span></span>
+                <span class="timer">Time: <span id="time">00:00</span></span>
+                <span class="hints">Hints: <span id="hints-count">3</span></span>
+            </div>
+        </header>
+
+        <div class="controls">
+            <button id="start">New Game</button>
+            <button id="hint">Use Hint</button>
+        </div>
+
+        <div class="grid" id="game-grid"></div>
+
+        <div class="achievements" id="achievements">
+            <h2>Achievements</h2>
+            <ul id="achievements-list">
+                <li class="locked" id="speed-demon">🏃 Speed Demon: Complete under 30 seconds</li>
+                <li class="locked" id="perfect-match">✨ Perfect Match: Complete with no mistakes</li>
+                <li class="locked" id="nature-master">🌿 Nature Master: Win 5 games</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="modal" id="win-modal">
+        <div class="modal-content">
+            <h2>Congratulations! 🎉</h2>
+            <p>You've completed the game in <span id="final-time">00:00</span> with <span id="final-moves">0</span> moves!</p>
+            <p class="achievement-earned hidden">New Achievement Unlocked! 🏆</p>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
