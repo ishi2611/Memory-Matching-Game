@@ -38,7 +38,7 @@ Nature Memory Match is an interactive, visually stunning memory card game with a
 Contributions are welcome! Please fork the repository and create a pull request.
 
 ## 📸 Screenshot
-![Nature Memory Match Screenshot](Final.jpg)
+![Nature Memory Match Screenshot](Final Game.jpg)
 
 ## 🌈 Enjoy the Game!
 Challenge yourself, have fun, and connect with nature through memory!
